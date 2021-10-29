@@ -1,5 +1,7 @@
 package com.smart.concurrency.view;
 
-public class ButtonListener {
+public interface ButtonListener {
 
+	public void startClicked();
+	public void stopClicked();
 }
